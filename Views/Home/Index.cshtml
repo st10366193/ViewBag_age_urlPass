@@ -1,0 +1,9 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<a href="@Url.Action("Index" , "Home",new {age = "20"})">
+    <button>show my age  </button>
+</a>
+
+<p>your age is  @ViewBag.user</p>
